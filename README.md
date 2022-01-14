@@ -1,2 +1,3 @@
-# Manipulation-Detection
-# Face Image Manipulation Detection 
+# Face Image Manipulation Detection using Deep Learning
+
+Image manipulation detection is drawing prominent attention as there are a lot of editing tools and software which allows to cause manipulation in images. The process of manipulating the image is termed as forgery and the existence of this led to the development of digital forensics. This proposal is a passive image manipulation scheme that is based on supervised learning approach. The digital input image is fed into viola-jones algorithm and the face is detected in the image. Then the detected face images are extorted to feature extraction. The results from the feature extraction is given as input to the SVNN classifier. It then classifies the input to detect the presence of manipulation in the image. The proposed system is reasonably faster and performance is greater than other existing methods. 
